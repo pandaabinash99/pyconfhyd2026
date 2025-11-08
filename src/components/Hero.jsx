@@ -22,7 +22,7 @@ const Hero = () => {
         <Heading tagLevel={1} level={1} className="hidden">
           {CONFERENCE.title}
         </Heading>
-        <div className="relative w-full sm:w-3/4 md:w-1/2 aspect-[2/1]">
+        <div className="relative w-full md:w-2/3 aspect-video my-4">
           <Image
             src={ASSETS.logoUrl}
             alt={ASSETS.imgAlt}

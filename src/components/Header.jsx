@@ -115,7 +115,7 @@ const Header = ({ themeToggle }) => {
 
   return (
     <header className="bg-gray-50 dark:bg-gray-900 p-4 shadow-lg sticky top-0 z-10">
-      <nav className="flex flex-wrap items-center justify-between sm:w-11/12 mx-auto">
+      <nav className="flex flex-wrap items-center justify-between mx-auto">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -124,8 +124,8 @@ const Header = ({ themeToggle }) => {
           <Image
             src={ASSETS.navbarLogoUrl}
             alt={ASSETS.navbarimgAlt}
-            width={50}
-            height={50}
+            width={100}
+            height={42}
           />
         </Link>
         <div className="flex items-center gap-1">
